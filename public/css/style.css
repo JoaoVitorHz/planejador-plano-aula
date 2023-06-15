@@ -1,0 +1,187 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.div-logo-content{
+    border: 1px solid #000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* STYLES ADD CLASS PLAN START */
+.div-add-class-plan{
+    width: 1600px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.div-add-class-plan-text{
+    display: flex;
+    flex-direction: column;
+}
+.div-add-class-plan-text :first-child{
+    font-size: 16px;
+}
+.div-add-class-plan-text :last-child{
+    font-size: 14px;
+    color: #888;
+}
+
+.div-add-class-plan-button{
+    display: flex;
+    gap: 20px;
+}
+.div-add-class-plan-button :first-child,
+.div-add-class-plan-button :last-child{
+    padding: 5px 20px;
+    border-radius: 5px;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.div-add-class-plan-button :first-child{
+    background-color: #1e9bd0;
+    color: #FFF;
+}
+.div-add-class-plan-button :first-child i{ 
+    color: #FFF;
+    padding: 0;
+    font-size: 15px;
+    margin-left: 5px;
+    vertical-align: inherit;
+}
+
+.div-add-class-plan-button :last-child{
+    background-color: transparent;
+    border: 1px solid #1e9bd0;
+    color: #1e9bd0;
+}
+.div-add-class-plan-button :last-child i{
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    margin-left: 5px;
+    vertical-align: inherit;
+}
+/* STYLES ADD CLASS PLAN END */
+
+
+/* STYLES LIST CLASS PLAN START */
+.div-list-class-plan{
+    width: 1600px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    margin-top: 50px;
+}
+
+.div-search-plan input{
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 5px;
+}
+
+
+
+.div-list-class-plan-table{
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    font-weight: 300;
+}
+.div-list-class-plan-table table{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+    height: 50px;
+}
+.td-crud div{
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+}
+.td-crud .fa-sort-down{
+    margin: 2px;
+    vertical-align: super;
+    font-size: 13px;
+}
+.td-experience-field i{
+    font-size: 5px;
+    vertical-align: middle;
+}
+
+.div-modal-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-modal-class-plan-for{
+    width: 700px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+select{
+    width: 250px;
+    border: 1px solid #000;
+    margin: 25px 0; 
+    padding: 5px 10px;
+}
+
+.div-modal-class-plan-for-buttons :first-child,
+.div-modal-class-plan-for-buttons :last-child{
+    padding: 5px 20px;
+    color: #000;
+    background-color: #eaddd7;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.div-modal-class-plan-for-buttons :first-child{
+    background-color: #eaddd7;
+}
+.div-modal-class-plan-for-buttons :last-child{
+    background-color: #69db7c;
+}
+
+/* STYLES LIST CLASS PLAN END */
