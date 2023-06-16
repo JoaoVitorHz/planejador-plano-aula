@@ -161,7 +161,7 @@ td{
     padding: 15px;
 }
 
-select{
+.div-modal-class-plan-for select{
     width: 250px;
     border: 1px solid #000;
     margin: 25px 0; 
@@ -185,3 +185,90 @@ select{
 }
 
 /* STYLES LIST CLASS PLAN END */
+
+.div-modal-add-class-plan{
+    width: 1600px;
+    padding: 20px;
+    background-color: #FFF;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-row{
+    display: flex; 
+    justify-content: space-between;
+    gap: 40px; 
+    width: 1200px;
+}
+.div-margin-top{
+    margin-top: 50px;
+}
+.div-row div{
+    display: flex; 
+    flex-direction: column;  
+}
+
+.div-add-school{
+    width: 600px;
+}
+.div-add-teacher{
+    width: 450px;
+}
+.div-row label{
+    font-size: 15px;
+}
+.div-modal-add-class-plan input,
+.div-modal-add-class-plan select{
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.div-modal-add-class-plan textarea{
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 100px;
+}
+.div-add-date,
+.div-add-shift,
+.div-add-class{
+    width: 250px;
+}
+
+.div-row-full-width{
+    width: 100%;
+}
+.div-row-btn{
+    width: auto;
+    gap: 20px;
+}
+.div-row span{
+    color: red;
+}
+.div-row-btn button{
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-cut{
+    background-color: #28a645;
+    color: #FFF;
+}
+.btn-cut i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.btn-cancel{
+    background-color: transparent;
+    color: #1e9bd0;
+    border: 1px solid #1e9bd0;
+}
+.btn-save{
+    background-color: #1e9bd0;
+    color: #FFF;
+}

@@ -25,7 +25,7 @@
             </div>
 
             <div class="div-add-class-plan-button">
-                <button id="btnAddClassPlan">Adicionar<i class="fa-solid fa-plus"></i></button>
+                <button id="btnListAddClassPlan">Adicionar<i class="fa-solid fa-plus"></i></button>
                 <button>Modelos de planos <i class="fa-solid fa-file-lines"></i></button>
             </div>
         </div>
@@ -75,11 +75,100 @@
                     </select>
 
                     <div class="div-modal-class-plan-for-buttons">
-                        <button id="buttonCancelAddClassPlan">Cancelar</button>
-                        <button>Avançar</button>
+                        <button id="btnCancelAddClassPlan">Cancelar</button>
+                        <button id="btnAddClassPlan">Avançar</button>
                     </div>
             </div>
         </div>
+
+        <div class="div-modal-container">
+            <div class="div-modal-add-class-plan">
+
+                <div class="div-row div-margin-top">
+                    <div class="div-add-school">
+                        <label for="">Escola </label>
+                        <input type="text">
+                    </div>
+
+                    <div class="div-add-teacher">
+                        <label for="">Professor</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-add-date">
+                        <label for="">Data</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="div-add-shift">
+                        <label for="">Turno</label>
+                        <input type="text">
+                    </div>
+                
+                    <div class="div-add-class">
+                        <label for="">Turma</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Tema da Aula <span>*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Campos de Experiência <span>*</span></label>
+                        <select name="" id="">
+                            <option value="">Default</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Objetivos de Aprendizagem (Habilidades) <span>*</span></label>
+                        <select name="" id="">
+                            <option value="">Default</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Organização E Integração Das Experiências - Práticas Pedagógicas <span>*</span></label>
+                        <select name="" id="">
+                            <option value="">Default</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Procedimentos Metodológicos > <span>*</span></label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="div-row">
+                    <div class="div-row-full-width">
+                        <label for="">Observações</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <div class="div-row div-row-btn">
+                    <button class="btn-cut"><i class="fa-solid fa-copy"></i>Colar</button>
+                    <button class="btn-cancel">Cancelar</button>
+                    <button class="btn-save">Salvar</button>
+                </div>
+            </div>
+        </div>
+
 
         <script src="js/script.js"></script>
     </body>
